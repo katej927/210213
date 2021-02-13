@@ -1,0 +1,8 @@
+const calcOne = (e) => {
+  const plusSign = e.target.innerText === "+"? 1:-1
+  
+  this.setState({count: this.state.count + 1 * plusSign})
+}
+
+<button onClick={calcOne}>+</button>
+<button onClick={calcOne}>-</button>
